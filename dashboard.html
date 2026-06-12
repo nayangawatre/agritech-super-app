@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | AgriTech Super App</title>
+
+    <link rel="stylesheet"
+        href="css/dashboard.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h2>🌱 AgriTech</h2>
+
+            <ul>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="crops.html">
+                        <i class="fas fa-seedling"></i>
+                        Crops
+                    </a>
+                </li>
+
+                <li>
+                    <a href="expenses.html">
+                        <i class="fas fa-wallet"></i>
+                        Expenses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="harvest.html">
+                        <i class="fas fa-wheat-awn"></i>
+                        Harvests
+                    </a>
+                </li>
+
+                <li>
+                    <a href="profile.html">
+                        <i class="fas fa-user"></i>
+                        Profile
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="logoutBtn">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Logout
+                    </a>
+                </li>
+
+            </ul>
+
+        </aside>
+
+        <!-- Main Content -->
+
+        <main class="main-content">
+
+            <!-- Top Bar -->
+            <div class="topbar">
+
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            
+                <h1>Dashboard</h1>
+            
+                <div class="user-info">
+                    Welcome Farmer 👨‍🌾
+                </div>
+            
+            </div>
+
+            <!-- Cards -->
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <i class="fas fa-seedling"></i>
+
+                    <h3 id="cropCount">0</h3>
+
+                    <p>Total Crops</p>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fas fa-wallet"></i>
+
+                    <h3 id="expenseCount">0</h3>
+
+                    <p>Total Expenses</p>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fas fa-wheat-awn"></i>
+
+                    <h3 id="harvestCount">0</h3>
+
+                    <p>Total Harvests</p>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fas fa-cloud-sun"></i>
+
+                    <h3>28°C</h3>
+
+                    <p>Weather</p>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Actions -->
+
+            <section class="quick-actions">
+
+                <h2>Quick Actions</h2>
+
+                <div class="action-buttons">
+
+                    <a href="crops.html"
+                        class="action-btn">
+
+                        Add Crop
+
+                    </a>
+
+                    <a href="expenses.html"
+                        class="action-btn">
+
+                        Add Expense
+
+                    </a>
+
+                    <a href="harvest.html"
+                        class="action-btn">
+
+                        Add Harvest
+
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- Recent Activity -->
+
+            <section class="recent">
+
+                <h2>Recent Activities</h2>
+
+                <ul>
+
+                    <li>🌱 Added Wheat Crop</li>
+
+                    <li>💰 Expense Added</li>
+
+                    <li>🌾 Harvest Updated</li>
+
+                </ul>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
